@@ -39,3 +39,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'faker'
+
+gem 'graphql'
+
+group :development do
+  # A development utility to test GraphQL queries.
+  gem 'graphiql-rails'
+end
