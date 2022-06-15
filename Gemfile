@@ -46,3 +46,5 @@ group :development do
   # A development utility to test GraphQL queries.
   gem 'graphiql-rails'
 end
+
+gem 'sprockets', '~>3.0'
